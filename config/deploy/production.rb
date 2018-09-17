@@ -6,7 +6,11 @@
 # server "example.com", user: "deploy", roles: %w{app db web}, my_property: :my_value
 # server "example.com", user: "deploy", roles: %w{app web}, other_property: :other_value
 # server "db.example.com", user: "deploy", roles: %w{db}
-server "warzone.ozfortress.com", roles: %w{app}
+server '139.99.130.143', user: 'core', roles: [:app, :web, :db], primary: true
+
+set :ssh_options, {
+	password: 'core'
+}
 
 
 # role-based syntax

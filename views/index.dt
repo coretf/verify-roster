@@ -32,10 +32,11 @@ block content
             });
         });
 
-    h1 Verify Match Rosters #[h3 For #[a(href="https://warzone.ozfortress.com", target="_blank") ozfortress]]
+    h1 Verify Match Rosters #[h3 For #[a(href="https://respawnleague.com", target="_blank") Respawn League]]
 
     | This is a simple tool for verifying that the people playing in your
-    | ozfortress match are actually who they say they are.
+    | Respawn League match are actually who they say they are.
+    | Forked from [a(href="https://github.com/ozfortress/verify-roster", target="_blank") verify-roster, courtesy of ozfortress.]
     br
     | Simply paste your match link and connect string (including #[code rcon_password]) and we'll check for you.
     br
